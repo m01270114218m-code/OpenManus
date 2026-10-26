@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="إطار بنفسجي">
+<defs>
+ <radialGradient id="bg" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#28135d"/><stop offset=".62" stop-color="#090b22"/><stop offset="1" stop-color="#020612"/></radialGradient>
+ <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b84cff"/><stop offset=".48" stop-color="#fff0ff"/><stop offset="1" stop-color="#b84cff"/></linearGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".35" stop-color="#b84cff"/><stop offset=".7" stop-color="#a36dff"/><stop offset="1" stop-color="#fff0ff"/></linearGradient>
+</defs>
+<circle cx="128" cy="128" r="112" fill="url(#bg)" stroke="#b84cff" stroke-opacity=".3" stroke-width="2"/>
+<circle cx="128" cy="128" r="99" fill="none" stroke="#b84cff" stroke-width="3" opacity=".35"/>
+<circle cx="128" cy="128" r="91" fill="none" stroke="url(#ring)" stroke-width="5" filter="url(#glow)"/>
+<circle cx="128" cy="128" r="82" fill="none" stroke="#b84cff" stroke-opacity=".35" stroke-width="1.5"/>
+
+ <circle cx="128" cy="128" r="67" fill="#06091b" stroke="#b84cff" stroke-width="2" stroke-dasharray="3 5"/>
+ <circle cx="128" cy="128" r="76" fill="none" stroke="url(#ring)" stroke-width="6" filter="url(#glow)"/>
+ <circle cx="128" cy="128" r="85" fill="none" stroke="#b84cff" stroke-width="2" opacity=".8"/>
+ <path d="M128 29l7 13 14 2-10 10 2 14-13-7-13 7 2-14-10-10 14-2z" fill="#ff69dc" stroke="#fff" stroke-width="2"/>
+
+</svg>
