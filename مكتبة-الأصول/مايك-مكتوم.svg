@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="مايك مكتوم">
+<defs>
+ <radialGradient id="bg" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#28135d"/><stop offset=".62" stop-color="#090b22"/><stop offset="1" stop-color="#020612"/></radialGradient>
+ <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4f9a"/><stop offset=".48" stop-color="#fff0ff"/><stop offset="1" stop-color="#ff4f9a"/></linearGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".35" stop-color="#ff4f9a"/><stop offset=".7" stop-color="#a36dff"/><stop offset="1" stop-color="#fff0ff"/></linearGradient>
+</defs>
+<circle cx="128" cy="128" r="112" fill="url(#bg)" stroke="#ff4f9a" stroke-opacity=".3" stroke-width="2"/>
+<circle cx="128" cy="128" r="99" fill="none" stroke="#ff4f9a" stroke-width="3" opacity=".35"/>
+<circle cx="128" cy="128" r="91" fill="none" stroke="url(#ring)" stroke-width="5" filter="url(#glow)"/>
+<circle cx="128" cy="128" r="82" fill="none" stroke="#ff4f9a" stroke-opacity=".35" stroke-width="1.5"/>
+
+ <g filter="url(#glow)" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M65 119v18 M78 104v48 M91 91v74 M165 91v74 M178 104v48 M191 119v18" stroke="#ff4f9a" stroke-width="4" opacity=".9" fill="none"/>
+ <rect x="104" y="57" width="48" height="99" rx="24" fill="url(#metal)" stroke="#fff" stroke-width="2"/>
+ <path d="M114 72v62" stroke="#fff" stroke-width="3" opacity=".65"/>
+ <path d="M88 125a40 40 0 0 0 80 0" fill="none" stroke="#ff4f9a" stroke-width="5"/>
+ <path d="M128 165v18 M107 184h42" stroke="url(#metal)" stroke-width="5" fill="none"/>
+ <path d="M77 72l102 112" stroke="#ff4c91" stroke-width="10" stroke-linecap="round"/><path d="M77 72l102 112" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+ 
+ </g>
+</svg>
